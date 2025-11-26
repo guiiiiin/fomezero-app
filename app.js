@@ -1,61 +1,36 @@
 function initMap() {
-  // Centro inicial do mapa (Padre Bernardo/GO como exemplo)
-  const centro = { lat: -15.1606, lng: -48.2833 };
-
-  const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 13,
-    center: centro,
+  // Cria o mapa centralizado em Goiás
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 6,
+    center: { lat: -15.933, lng: -48.283 } // centro aproximado entre Goiânia e Brasília
   });
 
-  // Lista de locais de distribuição
-  const locais = [
-    { nome: "Feira Comunitária", lat: -15.1606, lng: -48.2833 },
-    { nome: "ONG Vida Saudável", lat: -15.1700, lng: -48.2900 },
-    { nome: "Distribuição Escolar", lat: -15.1550, lng: -48.2800 }
+  // Lista de pontos de apoio
+  var pontosDeApoio = [
+    {
+      nome: "Ponto de Apoio Goiânia",
+      posicao: { lat: -16.6786, lng: -49.2539 }
+    },
+    {
+      nome: "Ponto de Apoio Brasília",
+      posicao: { lat: -15.7797, lng: -47.9297 }
+    }
   ];
 
-  // Adiciona marcadores dos locais
-  locais.forEach(l => {
-    const marker = new google.maps.Marker({
-      position: { lat: l.lat, lng: l.lng },
+  // Adiciona os marcadores no mapa
+  pontosDeApoio.forEach(function(ponto) {
+    var marker = new google.maps.Marker({
+      position: ponto.posicao,
       map: map,
-      title: l.nome
+      title: ponto.nome
     });
 
-    const info = new google.maps.InfoWindow({
-      content: `<strong>${l.nome}</strong>`
+    var infoWindow = new google.maps.InfoWindow({
+      content: `<h3>${ponto.nome}</h3>`
     });
 
-    marker.addListener("click", () => {
-      info.open(map, marker);
+    marker.addListener("click", function() {
+      infoWindow.open(map, marker);
     });
   });
-
-  // Geolocalização do usuário
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(
-      (pos) => {
-        const userPos = {
-          lat: pos.coords.latitude,
-          lng: pos.coords.longitude
-        };
-
-        new google.maps.Marker({
-          position: userPos,
-          map: map,
-          title: "Você está aqui",
-          icon: {
-            url: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
-          }
-        });
-
-        map.setCenter(userPos);
-      },
-      () => {
-        alert("Não foi possível obter sua localização.");
-      }
-    );
-  } else {
-    alert("Seu navegador não suporta geolocalização.");
-  }
 }
