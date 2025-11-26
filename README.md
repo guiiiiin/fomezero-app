@@ -6,7 +6,7 @@ Aplicativo simples em **HTML, CSS e JavaScript** que utiliza a **API do Google M
 Facilitar o acesso da população em situação de vulnerabilidade a locais de apoio, ONGs e centros comunitários que oferecem distribuição de alimentos.
 
 ## 🚀 Funcionalidades
-- Mapa interativo com pontos de apoio em Goiânia e Brasília.
+- Mapa interativo com pontos de apoio em todos os estados do pais.
 - Marcadores com informações básicas sobre cada local.
 - Instalação como aplicativo PWA em dispositivos móveis.
 - Funcionamento offline básico via Service Worker.
