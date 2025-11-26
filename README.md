@@ -1,6 +1,6 @@
 # FomeZero App
 
-Aplicativo simples em **HTML, CSS e JavaScript** que utiliza a **API do Google Maps** para mostrar pontos de apoio contra a fome em Goiás e Brasília. O projeto foi publicado no **GitHub Pages** e configurado como **PWA (Progressive Web App)**, permitindo instalação no celular.
+Aplicativo simples em **HTML, CSS e JavaScript** que utiliza a **API do Google Maps** para mostrar pontos de apoio contra a fome em toas os em todos os estados . O projeto foi publicado no **GitHub Pages** e configurado como **PWA (Progressive Web App)**, permitindo instalação no celular.
 
 ## 📌 Objetivo
 Facilitar o acesso da população em situação de vulnerabilidade a locais de apoio, ONGs e centros comunitários que oferecem distribuição de alimentos.
