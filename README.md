@@ -53,7 +53,8 @@ Este trabalho está diretamente alinhado ao **ODS 2 – Fome Zero e Agricultura 
 ![Print do HTML](images/html.png)
 
 ### Estilo CSS
-![Print do CSS](images/css.png)
+![Print do CSS](images/c<img width="1366" height="768" alt="css png" src="https://github.com/user-attachments/assets/471cc3d1-0ec3-4b62-a3fb-9d7a64ea1eb1" />
+ss.png)
 
 ### Código JavaScript
 ![Print do JS](images/js.png)
