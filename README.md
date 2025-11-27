@@ -1,31 +1,70 @@
-# FomeZero App
 
-Aplicativo simples em **HTML, CSS e JavaScript** que utiliza a **API do Google Maps** para mostrar pontos de apoio contra a fome em toas os em todos os estados . O projeto foi publicado no **GitHub Pages** e configurado como **PWA (Progressive Web App)**, permitindo instalação no celular.
+# 📱 FomeZero App
 
-## 📌 Objetivo
-Facilitar o acesso da população em situação de vulnerabilidade a locais de apoio, ONGs e centros comunitários que oferecem distribuição de alimentos.
-
-## 🚀 Funcionalidades
-- Mapa interativo com pontos de apoio em todos os estados do pais.
-- Marcadores com informações básicas sobre cada local.
-- Instalação como aplicativo PWA em dispositivos móveis.
-- Funcionamento offline básico via Service Worker.
-
-## 🛠️ Tecnologias utilizadas
-- **HTML5**
-- **CSS3**
-- **JavaScript**
-- **Google Maps API**
-- **GitHub Pages**
-
-## 📱 Como usar
-1. Acesse o link: [https://guiiiiin.github.io/fomezero-app/](https://guiiiiin.github.io/fomezero-app/)
-2. No celular, abra o menu do navegador e selecione **Adicionar à tela inicial**.
-3. O app será instalado como um PWA e poderá ser usado como aplicativo.
-
-## 📌 Próximos passos
-- Adicionar mais pontos de apoio com coordenadas reais.
-- Melhorar o design e a usabilidade.
-- Integrar com banco de dados para atualização dinâmica dos locais.
+Aplicativo desenvolvido por **Guilherme Nascimento de Almeida (Matrícula: 72450346)**  
+Disciplina: **Programação para Dispositivos Móveis**  
+Professor: **Dr. Romes Heriberto**
 
 ---
+
+## 🎯 Título do Projeto
+Aplicativo FomeZero – Mapa de Pontos de Apoio contra a Fome em Capitais e Cidades Vulneráveis do Brasil  
+
+---
+
+## 🎯 Objetivo
+Desenvolver um aplicativo móvel que permita localizar pontos de apoio e distribuição de alimentos em todas as capitais brasileiras e em cidades mais pobres e vulneráveis, contribuindo para o combate à fome e alinhando-se ao **ODS 2 – Fome Zero e Agricultura Sustentável** 🌱.  
+
+---
+
+## 📌 Justificativa
+A fome é um problema social que afeta milhões de brasileiros. Muitas vezes, a população não sabe onde encontrar apoio.  
+O **FomeZero App** busca reduzir essa dificuldade, oferecendo um **mapa interativo** com pontos de apoio, ONGs e centros comunitários.  
+Assim, o projeto contribui para a **inclusão social e digital**, além de apoiar diretamente as metas do ODS 2.  
+
+---
+
+## 🛠️ Metodologia / Desenvolvimento
+- Construído com **HTML5, CSS3 e JavaScript**  
+- Uso da **Google Maps API** para exibir pontos de apoio  
+- Publicado no **GitHub Pages** para acesso público  
+- Configurado como **PWA (Progressive Web App)**, permitindo instalação no celular e funcionamento offline básico via Service Worker  
+
+---
+
+## 🚀 Resultados Esperados
+- Acesso direto pelo navegador 🌐  
+- Instalação como PWA 📲  
+- Visualização de pontos de apoio em **capitais e cidades pobres**  
+- Facilitar o acesso rápido a locais de distribuição de alimentos e ONGs 🤝  
+
+---
+
+## ✅ Conclusão
+O **FomeZero App** representa uma solução prática e acessível para aproximar pessoas em situação de vulnerabilidade dos locais de apoio contra a fome.  
+Além de contribuir para a inclusão digital, o projeto reforça a importância da tecnologia como ferramenta de transformação social.  
+Este trabalho está diretamente alinhado ao **ODS 2 – Fome Zero e Agricultura Sustentável**, ao promover acesso a alimentos e fortalecer redes de apoio comunitário 🌍.  
+
+---
+
+## 📸 Prints do Código
+
+### Estrutura HTML
+![Print do HTML](images/html.png)
+
+### Estilo CSS
+![Print do CSS](images/css.png)
+
+### Código JavaScript
+![Print do JS](images/js.png)
+
+### Manifest PWA
+![Print do Manifest](images/manifest.png)
+
+### Service Worker
+![Print do Service Worker](images/sw.png)
+
+---
+
+## 🔗 Link do Projeto
+👉 [Acesse o FomeZero App no GitHub Pages](https://guiiiiin.github.io/fomezero-app/)
