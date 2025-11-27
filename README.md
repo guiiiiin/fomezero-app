@@ -58,7 +58,8 @@ Este trabalho está diretamente alinhado ao **ODS 2 – Fome Zero e Agricultura 
 ss.png)
 
 ### Código JavaScript
-![Print do JS](images/js.png)
+![Print do JS](images/<img width="1366" height="768" alt="map png" src="https://github.com/user-attachments/assets/f418c639-abda-488f-8ec6-2ce0fd73b9c7" />
+js.png)
 
 ### Manifest PWA
 ![Print do Manifest](<img width="1366" height="768" alt="manifest png" src="https://github.com/user-attachments/assets/6716ca18-ae74-464b-bb20-c97d02c817b2" />
