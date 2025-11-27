@@ -50,7 +50,8 @@ Este trabalho está diretamente alinhado ao **ODS 2 – Fome Zero e Agricultura 
 ## 📸 Prints do Código
 
 ### Estrutura HTML
-![Print do HTML](images/html.png)
+![Print do HTML](images<img width="1366" height="768" alt="html png" src="https://github.com/user-attachments/assets/6a7e60a6-9891-4448-8b06-50fc7113d9c2" />
+/html.png)
 
 ### Estilo CSS
 ![Print do CSS](images/c<img width="1366" height="768" alt="css png" src="https://github.com/user-attachments/assets/471cc3d1-0ec3-4b62-a3fb-9d7a64ea1eb1" />
@@ -60,10 +61,12 @@ ss.png)
 ![Print do JS](images/js.png)
 
 ### Manifest PWA
-![Print do Manifest](images/manifest.png)
+![Print do Manifest](<img width="1366" height="768" alt="manifest png" src="https://github.com/user-attachments/assets/6716ca18-ae74-464b-bb20-c97d02c817b2" />
+images/manifest.png)
 
 ### Service Worker
-![Print do Service Worker](images/sw.png)
+![Print do Service Worker](images/s<img width="1366" height="768" alt="sw png" src="https://github.com/user-attachments/assets/327e2daf-d77d-4bfd-9a11-38bb04210c0c" />
+w.png)
 
 ---
 
